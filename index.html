@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Todo</title>
+    <!--<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body id="body-id" class="dark-mode light-mode .dark-mode-mobile light-mode-mobile">
+    <div class ='row'>
+         <div class="container">
+            
+                <div class="title">
+                    <h1 class="text-light"><strong>Todo</strong></h1>
+                    <button class="btn" id="toggle-button" type="button"><img class = 'img-sun' src="assets/img/icon-sun.svg" alt="icon sun"><img class='img-moon' src="assets/img/icon-moon.svg" alt="icon moon"></button>
+                </div>
+        
+                <div class="todo-card">
+                    <form id="input-task" action="#" autocomplete="off">
+                        <div class="input-field">
+                            <div id="circle"><i class="fa fa-circle-thin"></i></div>
+                            <input id ='my-input' class="form-control task" type="text" id="my-input" name="task" placeholder="Create new todo..">
+                        </div>
+                    
+                        <ul id="collection-id" class="collection"></ul>
+                        
+                       </div>
+                       <div class="wrapper" >
+                            <div class="left" id="item-left">
+                               0 item left</div>
+                            <ul class="filter" >
+                                <li class ='list' id="all">All</li>             
+                                <li class ='list' id="active">Active</li>
+                                <li class ='list' id="complited">Complited</li>
+                            </ul>
+                            <div id="clear-complited"class="clear" >Clear Complited
+                            </div>
+                  </form>                    
+                </div>                   
+        </div>
+    </div>
+    <div class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">bidzevics</a></div>
+    <!--<script src="assets/bootstrap/js/bootstrap.min.js"></script>-->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
